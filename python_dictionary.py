@@ -40,3 +40,40 @@ print('display nationality inside dict1:',temp2['nationality'])
 dict1['age'] = 40
 
 print ('updated element in dictionary',dict1['age'])
+
+# get keys in a dictinary
+print('tot_no_keys in dict1 = ',  dict1.keys())
+print('tot_no_keys in dict1 in list form = ',  list(dict1.keys()))
+
+# get dict values
+print('values in dict1 in list form = ',  list(dict1.values()))
+
+print('how to iterate dictionary')
+
+for k,v in dict1.items():
+    print('key is: ',k,' and value is',v)
+
+# compare dictionary
+
+dict3 = { '1' : 'a','2':'b','3':'c'}
+dict4 = { '2':'b','1' : 'a','3':'c'}
+dict5 = { '5' : 'a','2':'7','3':'c'}
+
+print(dict3 == dict4)
+print(dict4 ==  dict5)
+
+del dict3['1']
+del dict4['3']
+
+print(dict3)
+print(dict4)
+
+print('check key in dictioanry')
+
+dict_keys = list(dict1.keys())
+
+if 'skills' in dict_keys:
+    print('true')
+else:
+     print('true')   
+     
