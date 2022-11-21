@@ -33,11 +33,13 @@ print('string to int: ',str_to_int+20)
 
 #input values using input()
 
-print('input name:')
-nam = input()
-print('input age:')
-ag = input()
+#print('input name:')
+nam = input("enter name:")
+#print('input age:')
+ag = float(input("enter age:"))
 
 print ('name=',nam,'age=',ag)
 # watched till 01:41:55
 
+print("type of name",type(nam))
+print("type of age",type(ag))
